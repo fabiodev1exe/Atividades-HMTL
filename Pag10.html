@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>Exemplos de Formulario</head>
+    <body>
+        <h1>Exemplos de Formularios com CheckBox,Select e Radio buttons</h1>
+
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" required>
+
+            <label>Gênero:</label>
+            <input type="radio" name="genero" id="generoM"
+            value="Masculino" required>
+            <label for="generoM">Masculino</label>
+
+            <input type="radio" name="genero" id="generoF"
+            value="Feminino" required>
+            <label for="generoF">Feminino</label>
+
+            <input type="radio" name="genero" id="generoO"
+            value="Outro" required>
+            <label for="generoO">Outro</label>
+
+            <label>Interesses:</label>
+            <input type="checkbox" name="interesse" id="interesse1"
+            value="Esportes">
+            <label for="interesse1">Esportes</label>
+
+            <input type="checkbox" name="interesse" id="interesse2"
+            value="Música">
+            <label for="interesse2">Música</label>
+
+            <input type="checkbox" name="interesse" id="interesse3"
+            value="Arte">
+            <label for="interesse3">Arte</label>
+
+            <label for="selecao">Escolha uma opção:</label>
+            <select name="selecao" id="selecao" required>
+                <option value=" disabled selected">Selecione uma Opção</option>
+                <option value="Opcao1">Opcao1</option>
+                <option value="Opcao2">Opcao2</option>
+                <option value="Opcao3">Opcao3</option>
+            </select>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>
