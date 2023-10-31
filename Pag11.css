@@ -1,0 +1,13 @@
+h1{
+    color:blue; /* cor do elemento h1 como azul*/
+    font-size: 24px; /*tamanho da fonte*/
+}
+p{
+    color: green; /*Define a cor do texto do elemento p como verde.*/
+}
+.box{
+    background-color: #ff8000e4; /* Define a cor de fundo da classe 'box' como amarela. */
+    border: 2px solid rgb(255, 119, 0); /* Define uma borda com 2 pixels de largura e cor laranja. */
+    padding: 10px; /* Adiciona preenchimento interno de 10 pixels. */
+    margin: 20px; /* Define margem externa de 20 pixels. */
+}
